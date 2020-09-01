@@ -161,7 +161,9 @@ h4{
 	
 	
 	
-	
+#vid{
+	text-align: center;
+}	
 
 #case {
 	margin-top: 5px ;
@@ -174,6 +176,7 @@ h4{
 .carte{
 	display: flex;
 	flex-wrap: nowrap;
+	justify-content: space-between;
 }
 
 
@@ -249,8 +252,9 @@ header
 }
 
 
-.presentation {
-	font-size: small 
+.presentation{
+	text-align: center;
+}
 }
 
 .duree {
