@@ -127,17 +127,26 @@
 			<div id="formulaire">
 			
 			<!-- Do not change the code! -->
-				<form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
-				<a id="foxyform_embed_link_194592" href="http://fr.foxyform.com/"></a>
-				<script type="text/javascript">
-				(function(d, t){
-   				var g = d.createElement(t),
-       			s = d.getElementsByTagName(t)[0];
-  				 g.src = "http://fr.foxyform.com/js.php?id=194592&sec_hash=5921b4014ce&width=350px";
-   				s.parentNode.insertBefore(g, s);
-				}(document, "script"));
-				</script>
-					</form>
+				<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
 			<!-- Do not change the code! -->
 
 			</div>
